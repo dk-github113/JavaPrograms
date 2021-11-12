@@ -12,11 +12,8 @@ class Main
             n=n/10;
         }
         if(temp==arm)
-            System.out.println("it is arm strong number");
+            System.out.println("it is armstrong number");
             else
             System.out.println("not armstrong number");
-        
-        
-       
         }
     }
