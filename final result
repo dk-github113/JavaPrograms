@@ -1,0 +1,22 @@
+/******************************************************************************
+
+Write a program to add 8 to the number 2345 and then divide it by 3. Now, 
+the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+	int a=8,b=2345,c=3,quotient=5,mul=5,add,divide,modulus,multiply;
+	add=a+b;
+	System.out.println(add);
+	divide=add/c;
+	System.out.println(divide);
+	modulus=divide%quotient;
+	System.out.println(modulus);
+	multiply=modulus*mul;
+	System.out.println(multiply);
+	
+	}
+}
