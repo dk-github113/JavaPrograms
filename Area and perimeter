@@ -1,0 +1,11 @@
+public class Main
+{
+	public static void main(String[] args) {
+	int length=5,breadth=7,area,Perimeter;
+	area=length*breadth;
+	System.out.println(area);
+	Perimeter=2*(length * breadth);
+	System.out.println(Perimeter);
+	
+	}
+}
