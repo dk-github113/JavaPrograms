@@ -1,0 +1,11 @@
+public class Main
+{
+	public static void main(String[] args) {
+	int a=2,b=3,c=5,length;
+	length=a+b+c;
+	System.out.println(length);
+
+
+	
+	}
+}
